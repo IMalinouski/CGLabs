@@ -1,0 +1,133 @@
+:root {
+    font-family: "Source Code Pro", monospace;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: rgb(124, 198, 118);
+}
+
+body {
+    background-color: #020202;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    padding: 1rem;
+    height: 95%;
+    width: 80%;
+    border: 3px solid rgb(124, 198, 118);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+}
+
+main {
+    flex: 1 1 90%;
+    margin-bottom: 1rem;
+    display: flex;
+}
+
+nav {
+    flex: 1 1 25%;
+    border-right: 3px solid rgb(124, 198, 118);
+}
+
+
+ul {
+    list-style: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 2rem;
+    margin-right: 1rem;
+}
+li {
+    padding: 0rem .5rem;
+}
+.chosen {
+    background-color: rgb(124, 198, 118);
+    
+}
+.chosen a {
+    color: #020202;
+}
+a {
+    text-decoration: none;
+    display: block;
+    
+}
+.main-content {
+    flex: 1 1 75%;
+    margin-left: 1rem;
+
+    display: flex;
+    flex-direction: column;
+}
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.descr {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    border: 3px solid rgb(124, 198, 118);
+    padding: .2em .4em;
+    cursor: pointer;
+
+    user-select: none;
+}
+.descr-chosen {
+    background-color: rgb(124, 198, 118);
+    color: #020202;
+}
+
+h2 {
+    font-size: 3rem;
+    text-transform: uppercase;
+    line-height: .9em;
+}
+
+.content-blocks {
+    
+    flex: 1 1 auto;
+    position: relative;
+}
+
+.content-blocks > article {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+.descr-text {
+    font-size: 1.5rem;
+}
+.descr-text span {
+    font-weight: 600;
+}
+
+.d-none {
+    display: none;
+}
+.description-head {
+    font-size: 1.1em;
+    margin-bottom: .5em;
+}
+footer {
+    border-top: 3px dashed rgb(124, 198, 118);
+    flex: 1 1 10%;
+    padding: 1rem .5rem 0rem .5rem;
+}
+
+.footer-text {
+    text-align: right;
+}

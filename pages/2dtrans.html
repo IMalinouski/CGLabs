@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2d трансформации</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../styles/style.css">
+    <script type="importmap">
+        {
+          "imports": {
+            "three": "https://cdn.jsdelivr.net/npm/three@v0.149.0/build/three.module.js",
+            "three/addons/": "https://cdn.jsdelivr.net/npm/three@v0.149.0/examples/jsm/"
+          }
+        }
+    </script>
+    <script type="module" src="../scripts/dz//2d/2dMain.js"></script>
+    <script type="module" src="../scripts/main.js"></script>
+</head>
+<body>
+    <div class="container">
+        <main>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="../index.html">главная</a>
+                    </li>
+                    <li class="chosen">
+                        <a href="#">2d трансформ</a>
+                    </li>
+                    <li>
+                        <a href="3dtrans.html">3d трансформ</a>
+                    </li>
+                </ul>
+            </nav>
+            <section class="main-content">
+                <div class="top">
+                    <h2>2d трансформации</h2>
+                    <div class="descr">справка</div>
+                </div>
+                <section class="content-blocks">
+                    <article class="render"></article>
+                    <article class="descr-text d-none">
+                        <p class="description">
+                            <p class="description-head">
+                                <span>№1 Реализация программ построения и преобразования двумерных объектов</span>
+                            </p>
+                        </p>
+                        <p class="description">
+                            <span>Цель работы: </span>изучить геометрические преобразования двумерных объектов (перенос, масштабирование, поворот)
+                        </p>
+                        <br>
+                        <p class="description">
+                            <p class="description-head">
+                                <span>Задание: </span>необходимо доработать код, представленный в файлах 2dObjectsGenerators.js, 2dTransformations.js и 2dAnimation.js, реализовав логику создания набора точек для двумерных объектов на сцене, логику поворота объектов и общую анимацию на сцене.
+                                Объекты на сцене необходимо создать в соответсвии с вариантом, представленным в файле "лабораторный практикум". Общая анимация должна включать комбинацию из преобразований объектов (масштабирование, поворот, перемещение) по примеру сцены, представленной на странице.
+                            </p>
+                        </p>
+                    </article>
+                </section>
+            </section>
+        </main>
+        <footer>
+            <pre class="footer-text">
+   ______ ______   ______                           ____                                __   _                    
+  / ____// ____/  /_  __/_____ ____ _ ____   _____ / __/____   _____ ____ ___   ____ _ / /_ (_)____   ____   _____
+ / /    / / __     / /  / ___// __ `// __ \ / ___// /_ / __ \ / ___// __ `__ \ / __ `// __// // __ \ / __ \ / ___/
+/ /___ / /_/ /    / /  / /   / /_/ // / / /(__  )/ __// /_/ // /   / / / / / // /_/ // /_ / // /_/ // / / /(__  ) 
+\____/ \____/    /_/  /_/    \__,_//_/ /_//____//_/   \____//_/   /_/ /_/ /_/ \__,_/ \__//_/ \____//_/ /_//____/  
+            </pre>
+        </footer>
+    </div>
+</body>
+</html>
