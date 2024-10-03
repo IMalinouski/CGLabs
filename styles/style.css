@@ -115,6 +115,10 @@ h2 {
     font-weight: 600;
 }
 
+.descr-text a {
+    text-decoration: underline;
+}
+
 .d-none {
     display: none;
 }
