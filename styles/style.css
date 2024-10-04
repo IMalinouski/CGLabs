@@ -110,7 +110,17 @@ h2 {
 
 .descr-text {
     font-size: 1.5rem;
+    overflow-y: scroll;
+    scrollbar-color: rgb(124, 198, 118) transparent;
+    scrollbar-width: thin;
 }
+/* ::-webkit-scrollbar-thumb{
+    background-color: rgb(124, 198, 118);
+    box-shadow: inset 0px 0px 0 5px #000;
+    border-width: 0px 2px;
+    border-color: transparent !important;
+    border-style: dashed;
+} */
 .descr-text span {
     font-weight: 600;
 }
